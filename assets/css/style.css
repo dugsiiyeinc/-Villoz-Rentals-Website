@@ -1,0 +1,37 @@
+/* ######## Jakarta font link #############*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root {
+    
+  
+    /*############ Colors ##############*/
+    /*Color mode in hexadecimal*/
+    --primary-color: #537dad;
+    --primary-dark-color: #192a46;
+    --heading-color: #132742;
+    --text-color: #777d86;
+    --body-color: #fff;
+    
+  
+    /*############# Font and typography ####################*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Syne", sans-serif;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: 1.5rem;
+    --medium-font-size: 1.25rem;
+    --small-font-size: 0.875rem;
+  
+    /*################## Font weight #######################*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+  
+    
+  }
+/* background-color: var(--body-color);  sidaas ayaa loo isticmaalaaa */
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: var(--body-color);  
+}
