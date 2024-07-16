@@ -1,0 +1,61 @@
+.page-header {
+    background-color: #132742;
+    position: relative;
+    padding-top: 308px;
+    padding-bottom: 168px;
+}
+.destination-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/page-header-bg-1-1.jpg);
+    opacity: 0.3;
+}
+.des-container {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+
+}
+.des-title h2 {
+    font-size: 2rem;
+    color: #fff;
+
+}
+
+.destination_two {
+    position: relative;
+    /* padding: 7.5rem  0 6.875rem; */
+    background-color: blanchedalmond;
+}
+.destination_two-conta {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.destination_two {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 1rem;
+    /* margin: 2rem; */
+    justify-content: center;
+    align-items: center;
+  }
+  .destination_two-item img{
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    margin: 0 0 10px;
+  }
+  .span2 {
+    grid-colum:  1 / 2;
+    /* background-color: black; */
+  }
+  .span5 {
+
+  }
